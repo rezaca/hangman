@@ -1,2 +1,2 @@
-# hangman
-a game of hangman using JS
+# psychic game
+a guessing game using JS
