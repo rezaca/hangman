@@ -31,7 +31,9 @@ document.onkeyup = function(event) {
 		randomletter = letters[Math.floor(Math.random() * letters.length)];
 }
 
-var html = "<h1>The Psychic Game</h1>" + "<h2>Guess what letter I'm thinking of</h2>" + "<h2>Wins: " + wins + "</h2>" + "<h2>Losses: " + losses + "</h2>" + "<h2>Guesses left: " + guessesleft + "</h2>" + "<h2>Your guesses so far: " + guessesSofar + "</h2>";
-	document.querySelector("#game").innerHTML = html;
+	document.querySelector('#wins').innerHTML = wins;
+	document.querySelector('#losses').innerHTML = losses;
+	document.querySelector('#guessesleft').innerHTML = guessesleft;
+	document.querySelector('#guessesSofar').innerHTML = guessesSofar;
 
 }
