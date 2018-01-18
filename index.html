@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-		
-	<div id=game>
-		<h1>The Psychic Game</h1>
-		<h2>Guess what letter I'm thinking of</h2>
-		<h2>Wins:</h2>
-		<h2>Losses:</h2>
-		<h2>Guesses left:</h2>
-		<h2>Your guesses so far:</h2>
+<html lang="en">
+  <head>
+	<title>Psychic Game</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+
+<div class="container text-center">
+	<div class="jumbotron">
+		<h1 class="display-3">Psychic Game</h1>
+		<p class="lead">Can you guess my letter?</p>
+	</div>
+	<div class="container">
+		<p class="lead">Wins: <span id="wins"></span></p>
+		<p class="lead">Losses: <span id="losses"></span></p>
+		<p class="lead">Guesses left: <span id="guessesleft"></span></p>
+		<p class="lead">Letters used: </p>
+		<br>
+		<span class="display-3" id="guessesSofar"></span>
 	</div>
 
-<script type="text/javascript" src="assets/javascript/game.js">
-	
-</script>
-</body>
+</div>
+
+	<!-- Optional JavaScript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
+<body>
