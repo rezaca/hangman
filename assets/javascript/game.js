@@ -34,6 +34,6 @@ document.onkeyup = function(event) {
 	document.querySelector('#wins').innerHTML = wins;
 	document.querySelector('#losses').innerHTML = losses;
 	document.querySelector('#guessesleft').innerHTML = guessesleft;
-	document.querySelector('#guessesSofar').innerHTML.join(" ") = guessesSofar;
+	document.querySelector('#guessesSofar').innerHTML = guessesSofar.join(" ");
 
 }
